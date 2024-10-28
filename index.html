@@ -1,0 +1,704 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />"
+
+<style>
+
+    .main{
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+        margin: auto;
+        gap: 30px;
+        
+    }
+
+    .logo{
+        position: relative;
+        margin-bottom: 120px;
+        margin-left: 150px;
+       
+    }
+
+    .corner-image{
+        margin-bottom: 120px;
+        font-size: 100px;
+        background-color: #cb7802;
+        position: absolute;
+        width: 200px;
+        height: 200px;
+        top: 0;
+        right: 0;
+       
+    }
+
+     nav ul{
+        font-size: 30px;
+        font-style: italic;
+        list-style-type: none;
+        display: flex;
+        gap: 20px;
+        margin-top: 45px;
+        
+    }
+
+    nav ul li{
+        margin-left: 60px;
+        margin-top: 30px;
+        
+    }
+
+    nav ul li a{
+        color:rgb(88, 51, 28);
+        text-decoration: none;
+
+    }
+
+
+    nav ul li a:hover{
+        color:white;
+        
+    
+    }
+
+   
+   .content{
+    display: flex;
+    font-size: 40px;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+ 
+    margin-top: 100px;
+    gap: 100px;
+    }
+
+    .home{
+        padding: 30px;
+        text-align: center;
+        border: 2px solid  rgba(107, 62, 0, 0.801);
+        background-color: rgba(107, 62, 0, 0.801);
+        height: 420px;
+        width: 450px;
+        border-radius: 20px;
+        color: white;
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+        flex-direction: column;
+        margin-left: 100px;
+       
+
+    }
+
+    .line{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        margin: auto;
+        margin-bottom: 100px;
+        font-size: 30px;
+    }
+
+    .description{
+        margin-top: 10px;
+        font-size:20px;
+        font-weight: lighter;
+    }
+
+    .icon{
+        font-size: 90px;
+        margin-top: 100px;
+    }
+
+    .arrow-button{
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 50px;
+        padding-right: 50px;
+        margin:auto;
+        margin-top: 10px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        align-items: center;
+        background-color: white ;
+    }
+
+    .arrow-button:hover{
+        background-color:  rgba(250, 172, 62, 0.801);
+           
+
+    }
+    
+
+    .pic2{
+        width: 505px;
+        height: 485px;
+        margin-left: 10px;
+        margin-right: 30px;
+        border-top-left-radius: 25px;
+        border-top-right-radius: 25px;
+        border-bottom-left-radius: 25px;
+        border-bottom-right-radius: 25px;
+    }
+
+    .second{
+        margin: auto;    
+    }
+
+    .offer{
+        font-size: 50px;
+        text-align: center;
+        color: #682f04;
+        margin-top: 85px;
+        margin-left: 70px;
+    }
+
+    .describe{
+        font-size: 30px;
+        margin-bottom: 10px;
+        text-align: center;
+        color: #0b0b0b;
+    }
+
+    .list{
+        margin-top: 100px;
+        display: flex;
+        gap: 50px;
+        margin: auto;
+        justify-items: center;
+        justify-content: center;
+        gap: 30px;
+    
+    }
+
+    .offer1{
+         margin-top: 50px;
+         font-size: 45px;
+         color: #682f04;
+
+    }
+    .offer-describe1{
+        font-size: 21px;
+        color: black;
+    }
+
+    .offer2{
+        margin-top: 50px;
+        font-size: 45px;
+        color: #682f04;
+    }
+    .offer-describe2{
+        font-size: 21px;
+        color: black;
+    }
+
+    .offer3{ 
+        margin-top: 50px;
+        font-size: 45px;
+        color: #682f04;
+    }
+    .offer-describe3{
+        font-size: 21px;
+        color: black;
+    }
+
+    .box{
+        text-align: center;
+        background-color: #844f06;
+        margin-top: 100px;
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+        height: 150px;
+    }
+
+    .day{
+        margin-top: 30px;
+        margin-right: 20px;
+        font-size: 30px;
+        color:rgb(227, 225, 225);
+        margin-right: 200px;
+    }
+
+    .special{
+        font-size: 55px;
+        color: rgba(232, 197, 177, 0.993);
+        margin-left: 200px;
+        margin-right: 200px;
+        height: 30px;
+    }
+
+    .arrow-button2{
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 50px;
+        padding-right: 50px;
+        margin-right: 100px;
+        margin-top: 50px;
+        border-top-left-radius: 30px;
+        border-top-right-radius: 30px;
+        border-bottom-left-radius: 30px;
+        border-bottom-right-radius: 30px;
+        border: none;
+        align-items: center;
+        background-color: rgba(57, 21, 1, 0.993);
+        color: white;
+    }
+
+    .arrow-button2:hover{
+        background-color: rgba(245, 242, 236, 0.352);
+
+        
+    }
+
+
+    .our-shop{
+        margin: auto;
+    }
+
+    .shop{
+        font-size: 55px;
+        margin-top: 55px;
+    }
+
+    .work{
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+     
+    }
+
+    .way{
+        margin-top: 190px;
+        flex-direction: column;
+        margin-left: 100px;
+        margin-right: 49px;
+        gap: 50px;
+    }
+
+
+   .col1{
+    margin-top: 5px;
+  
+   
+    }
+
+   .col2{
+    margin-top: 45px;
+  
+    }
+
+.who{
+        text-align: center;
+        font-size: 50px;
+        margin-left: 5px;  
+        margin-right: 5px; 
+        
+        
+}
+
+.describe1{
+        text-align: center;
+        font-size: 25px;
+        margin-left: 2px;
+        margin-right: 2px;
+        color: black;
+       
+}
+
+    .choose{
+        text-align: center;
+        font-size: 50px;
+        margin-left: 50px;
+        margin-right: 5px;
+        color: #592702;
+    }
+
+    .des2{
+        font-size: 25px;
+        margin-left: 2px;
+        margin-right: 2px;
+        color: black;
+    }
+
+    .third{
+        margin: auto;
+    }
+
+    .title{
+        font-size: 70px;
+        margin: auto;
+        text-align: center;
+    }
+
+    .image{
+        text-align: center;
+        flex-direction: row;
+        margin-top: 55px;
+    }
+
+    .img12{
+        margin-left: 75px;
+
+    }
+
+    .pic12{
+        display: flex;
+        flex-direction: row;
+        gap: 85px;
+    }
+
+    .img11{
+        display: flex;
+        flex-direction: row;
+        margin-left: 75px;
+
+    }
+
+    .pic11{
+        margin-top: 80px;
+        display: flex;
+        flex-direction: row;
+        gap: 85px;
+    }
+    
+    .img5{
+        margin-right: 55px;
+
+    }
+    .pic5{
+        margin-top: 80px;
+
+    }
+
+    .fourth{
+       margin-top: auto;
+    }
+
+    .contact{
+        padding-top: 45px;
+        font-size: 50px;
+        margin-right: 110px;
+        margin-left: 35px;
+        
+
+    }
+
+    .option{
+        display: flex;
+        margin-top: 45px;
+    }
+
+    .form-container {
+    padding: 10px;
+    border-radius: 20px;
+    width: 425px;   
+    }
+
+form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-top: 25px;
+    border: 2px solid #552702 ;
+    border-radius: 25px;
+    text-align: left;
+    row-gap: 20px;
+    margin-left: 180px;
+
+}
+
+textarea{
+    height: 200px;
+    width: 100%;
+    font-size: 16px;
+    border: 2px solid #552702;
+    border-radius: 7px;
+    margin-left: 180px;
+    text-align: justify;
+    margin-top:25px ;
+}
+    
+
+
+ .button2{
+    width: 200px;
+    height: 50px;
+    padding: 10px;
+    margin-right:139px;
+    margin-left: 180px;
+    background-color: #682f04;
+    border: 2px solid #ccc;
+    border-radius: 25px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.button2:hover{
+        background-color: #cb7802;
+}
+
+.position{
+    flex-direction: column;
+    margin-left: 400px;
+    margin-top: 110px;
+    font-size: 25px;
+    
+}
+
+.icon1{
+    margin-top: 15px;
+    font-size: 20px;
+    
+}
+
+.icon2{
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+.icon3{
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+
+.fifth{
+    margin: auto;
+    background-color: #682f04 ;
+    height: 100px;
+    width: 100%;
+    
+   
+}
+
+.note{
+    padding-top: 40px;
+    color: white;
+    font-size: 25px;
+    margin: auto;
+}
+.class2{
+    width: 438px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+</style>
+</head>
+<body>
+    <div class="main">
+        <div class="logo">
+            <img src="image0.jpeg" class="corner-image">
+        </div>
+
+        <div>
+            <nav>
+                <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">We offer</a></li>
+            <li><a href="#">Our Shop</a></li>
+            <li><a href="#">Special</a></li>
+            <li><a href="#">Contact us</a></li>
+            </ul>
+           </nav>
+        </div>
+    </div>
+
+    <div class="content">
+        <div class="home">
+           
+            <div class="line">
+                <div class="icon">
+                <a href="#"><i class="fa-regular fa-heart" style="color: #ffffff;"></i></a>
+                </div>
+                <div>Coffee </div>
+                <div>makes you love</div>
+             <div class="description">
+                a lot can happen over coffee,it's awesome
+             </div>
+   
+             
+             <a href="#"><button class="arrow-button">
+                today's special <i class="fa-solid fa-arrow-right" style="color: #552702;"></i>
+             </button></a>
+            </div> 
+       </div>
+
+              <div class="pic2">
+                 <img src="image8.jpeg" height="480rem" width="430rem" class="pic2">
+             </div>
+    
+    </div>
+
+    <div class="second">
+        <div class="offer">
+            <div>WHAT WE OFFER</div>
+            <div class="describe">
+                <div>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus architecto, adipisci sequi</div>
+                <div>possimus corporis consequatur incidunt suscipit libero excepturi rerum?</div>
+                <div> Iste incidunt atque nobis laborum quis magnam perferendis</div>
+        </div>
+
+        <div class="list">
+            <div class="offer1">
+                <img src="image1.jpeg" height="150rem" width="150rem" class="offer1">
+                <div>Coffee</div>
+                <div class="offer-describe1">
+                    <div>Erat imperdiet dessntias es usu, alis aliquied corrumpit</div>
+                    <div>ea qui. Eu vim oratio conclusionmque, vel at errem</div>
+                    <div>nominavi delicatissimi</div>
+                </div>
+            </div>
+
+                <div class="offer2">
+                    <img src="image21.jpg" height="150rem" width="150rem" class="offer2">
+                    <div>Tea</div>
+                    <div class="offer-describe2">
+                        <div>Erat imperdiet dessntias es usu, alis aliquied corrumpit</div>
+                        <div>ea qui. Eu vim oratio conclusionmque, vel at errem</div>
+                        <div>nominavi delicatissimi</div>
+                    </div>
+                </div>
+
+                 <div class="offer3">
+                        <img src="image13.jpeg" height="150rem" width="150rem" class="offer3">
+                        <div>Cakes</div>
+                        <div class="offer-describe3">
+                            <div>Erat imperdiet dessntias es usu, alis aliquied corrumpit</div>
+                            <div>ea qui. Eu vim oratio conclusionmque, vel at errem</div>
+                            <div>nominavi delicatissimi</div>
+                        </div>
+                </div>
+        </div>
+
+        <div class="box">
+            <div class="day">
+                <div>MAKE YOUR DAY</div>
+                <div class="special">
+                    Special
+                </div>
+            </div>
+             
+            <div>
+             <a href="#"><button class="arrow-button2">
+               Book a Corner <i class="fa-solid fa-arrow-right" style="color: #ffffff;"></i>
+             </button></a>
+            </div> 
+        </div>
+
+        <div class="our-shop">
+            <div class="shop">OUR SHOP</div>
+         <div class="work">
+                <img src="image9.jpeg" height="650rem" width="650rem">
+             <div class="way">
+                 <div class="col1">
+                     <div class="who">
+                         Who we are
+                     </div>
+                     <div class="describe1">
+                         <div>Lorem, ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</div>
+                        
+                     <div>
+                 </div>
+
+                  <div class="col2">
+                    <div class="choose">
+                         Why choose us?
+                     </div>
+                     <div class="des2">
+                         <div>Lorem, ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</div>
+                        
+                     </div>
+                  </div>
+                  </div>
+                  </div>
+        
+        </div>
+    </div>
+
+    <div class="third">
+         <div class="title">
+              What Special
+         </div>
+             
+              <div class="image">
+                  <div class="img12">
+                     <div class="pic12">
+                         <img src="image4.jpeg" height="450rem" width="500rem">
+                         <img src="image14.jpeg" height="450rem" width="500rem">
+                     </div>
+                  </div>
+
+
+                  <div class="img11">
+                     <div class="pic11">
+                         <img src="image10.jpeg" height="450rem" width="500rem">
+                         <img src="image11.jpeg" height="450rem" width="500rem"> 
+                     </div>
+                 </div>
+                 <div class="img5">
+                     <div class="pic5">
+                         <img src="image2.jpeg" height="450rem" width="500rem">   
+                     </div> 
+                 </div>
+              </div>
+    </div>
+
+    <div class="fourth">
+        <div class="contact">
+            CONTACT US
+        </div>
+          <div class="option">
+             <div class="form-container">
+                  <form action="/submit">
+                        <input type="text" name="username" placeholder="Name" required>
+                        <input type="email" name="email" placeholder="Email" required>
+                        
+                        <textarea id="message" class= "class2" name="message" row="5" placeholder="Message"></textarea>
+                        
+                       <a href="#"><button class="button2">
+                          Send Message
+                      </button></a>
+                 </form>
+             </div> 
+        
+          
+      
+
+           <div class="position">
+              <div class="icon1"><i class="fa-solid fa-location-dot" style="color: #610a0a;"></i>
+              <div>321 Awesome Street<br> New York, NY=12345</div></div>
+              <div class="icon2"><i class="fa-solid fa-square-envelope" style="color: #610a0a;"></i>
+              <div>coffeehub@gmail.com</div></div>
+              <div class="icon3"><i class="fa-solid fa-phone" style="color: #610a0a;"></i>
+              <div> +1 235 567 789</div></div>
+          </div> 
+          </div>     
+  
+          <div class="fifth">
+            <div class="note">
+               Copyright.2024. Design by @Afroja Aman
+            </div> 
+          </div>
+ </div>
+</body>
+</html>
